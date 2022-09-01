@@ -4,7 +4,7 @@ This will create the license file so the user won't have to set any servers and 
 
 ## Usage
 ```
-neatvideo_license
+import neatvideo_license
 
 neatvideo_license.NeatVideoFloatingLicense(license_server="SERVER", port=PORT)
 ```
