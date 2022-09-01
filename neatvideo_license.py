@@ -1,7 +1,3 @@
-"""Checks for existence of license file
-and creates one if it doesn't exist or is not correct.
-"""
-
 import getpass
 import os
 import platform
@@ -18,7 +14,8 @@ class NeatVideoFloatingLicense(object):
         if platform.system() == "Windows":
             user_name = getpass.getuser()
             license_path = os.path.join(
-                "C:/Users/",
+                "C:",
+                "users",
                 user_name,
                 "AppData",
                 "Roaming",
